@@ -1,4 +1,4 @@
-package when.error.occurs;
+package error.occurs;
 
 public class SumOfErrors {
 	public static void main(String[] args) throws Exception{

@@ -1,4 +1,4 @@
-package when.error.occurs;
+package error.occurs;
 
 public class MakeUnexpectedError {
 	public void unexpectedError() {
