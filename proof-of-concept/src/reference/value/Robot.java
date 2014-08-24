@@ -26,5 +26,4 @@ public class Robot {
 		this.modelName = modelName;
 	}
 
-
 }
