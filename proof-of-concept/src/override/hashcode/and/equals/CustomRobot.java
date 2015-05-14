@@ -1,4 +1,4 @@
-package reference.value;
+package override.hashcode.and.equals;
 
 public class CustomRobot {
 	private int productNumber;
