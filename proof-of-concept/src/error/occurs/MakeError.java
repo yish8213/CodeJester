@@ -1,19 +1,19 @@
 package error.occurs;
 
 public class MakeError {
-	public void makeSomeErrors() throws RuntimeException {
-		throw new RuntimeException("Exception in subroutine");
+	public void makeErrorsInCatchArea() throws RuntimeException {
+		throw new RuntimeException("Exception in Catch area");
+	}
 
+	public void makeErrorsInFinallyArea() throws RuntimeException {
+		throw new RuntimeException("Exception in Finally area");
 	}
 
 	public void generateNumberFormatException() throws NumberFormatException {
 		throw new NumberFormatException("NumberFormatException in subroutine");
-
 	}
 
-	public void generateUnexpectedError() throws RuntimeException {
-		MakeUnexpectedError makeUnexpectedError = new MakeUnexpectedError();
-		makeUnexpectedError.unexpectedError();
-
+	public void generateUnexpectedError() throws InterruptedException {
+		throw new InterruptedException("Unexpected exception in subroutine");
 	}
 }
