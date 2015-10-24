@@ -1,15 +1,15 @@
 package binary.tree;
 
-public class BinNode {
+public class BinaryNode {
 	private int key;
 	private String name;
 	private boolean isRoot = false;
 
-	private BinNode parent;
-	private BinNode leftChild;
-	private BinNode rightChild;
+	private BinaryNode parent;
+	private BinaryNode leftChild;
+	private BinaryNode rightChild;
 
-	public BinNode(int key, String name) {
+	public BinaryNode(int key, String name) {
 		this.key = key;
 		this.name = name;
 	}
@@ -38,27 +38,27 @@ public class BinNode {
 		this.isRoot = isRoot;
 	}
 
-	public BinNode getParent() {
+	public BinaryNode getParent() {
 		return parent;
 	}
 
-	public void setParent(BinNode parent) {
+	public void setParent(BinaryNode parent) {
 		this.parent = parent;
 	}
 
-	public BinNode getLeftChild() {
+	public BinaryNode getLeftChild() {
 		return leftChild;
 	}
 
-	public void setLeftChild(BinNode leftChild) {
+	public void setLeftChild(BinaryNode leftChild) {
 		this.leftChild = leftChild;
 	}
 
-	public BinNode getRightChild() {
+	public BinaryNode getRightChild() {
 		return rightChild;
 	}
 
-	public void setRightChild(BinNode rightChild) {
+	public void setRightChild(BinaryNode rightChild) {
 		this.rightChild = rightChild;
 	}
 
