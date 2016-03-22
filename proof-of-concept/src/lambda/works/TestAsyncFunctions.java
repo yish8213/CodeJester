@@ -21,8 +21,14 @@ public class TestAsyncFunctions {
 
         manager.runAsync(() -> System.out.println("Running in Async mode"));
         manager.runAsync(() -> {
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 10; i++) {
                 System.out.println("just counting : " + i);
+
+                try {
+                    Thread.sleep(1);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         });
         manager.runAsync(() -> System.out.println("String : " + stringAdder.doSomething("A", "b")));
