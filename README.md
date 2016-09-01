@@ -1,6 +1,6 @@
 # Useful Samples
 
-Java code samples for blogging (http://yish-foss.blogspot.kr/)
+Java code samples for blogging (https://yish-foss.blogspot.kr/)
 
 ### Prerequisities
 
