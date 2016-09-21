@@ -37,9 +37,7 @@ public class ExpandRandomRange {
         // Testing..
         IntStream.range(0, 100)
                 .parallel()
-                .forEach(i -> {
-            System.out.println(random7());
-        });
+                .forEach(i -> System.out.println(random7()));
 
     }
 }
